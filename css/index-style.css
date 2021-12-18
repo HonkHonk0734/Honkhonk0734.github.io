@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -10,69 +12,12 @@
     --pink: #DAAD86;
     --brown: #BC986A;
     --white: #FBEEC1;
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
 
 }
 
-.image-container {
-    position: relative;
-    text-align: center;
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
-}
-
-.picture-header {
-    position: absolute;
-    font-size: 10vh;
-    top: 20vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    position: absolute;
-    top: 40vh;
-    left: 50%;
-    transform: translate(-50%);
-    width: 80vw;
-    grid-column-gap: 20px;
-}
-
-.link {
-    background-color: #659dbd;
-    border: 2px solid black;
-    color: rgb(219, 218, 218);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    grid-row-gap: 20px;
-    text-decoration: none;
-    transition: linear 0.2s;
-}
-
-.link:hover {
-    background-color: var(--green);
-}
-
-@media screen and (max-width: 628px) {
-    .picture-header {
-        font-size: 7vh;
-    }
-} 
-
-@media screen and (max-width: 1008px) {
-    .link {
-        font-size: 20px;
-    }
-}
-@media screen and (max-width: 782px) {
-    .grid-container {
-        grid-template-columns: auto;
-        grid-row-gap: 1em ;
-    }
+body {
+    font-family: var(--Poppins);
+    background-image: linear-gradient(to bottom right, var(--brown), var(--pink));
 }
