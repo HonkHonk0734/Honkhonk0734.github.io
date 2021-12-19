@@ -46,7 +46,7 @@ nav {
     color: #BC986A;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
 
     .line {
         width: 30px;
@@ -79,8 +79,8 @@ nav {
     }
 
     .nav-links.open{
-        clip-path: circle(900px at 90% -10%);
-        -webkit-clip-path: circle(900px at 90% -10%);
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
         pointer-events: all;
     }
 
