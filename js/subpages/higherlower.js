@@ -13,9 +13,8 @@ function higherlower() {
 
         output.innerHTML = ("Perfect, wij verspillen 2441600000kg voedsel per jaar (EN RICK IS GAY)")
         let linkText = "milieucentraal.nl";
-        let cock = linkText.style.textDecoration("none")
-        let link = cock.link("https://www.milieucentraal.nl/minder-afval/afval-scheiden/afval-scheiden-cijfers-en-kilo-s/")
-        explanation.innerHTML = ("Volgens " + cock + " wordt er 140kg aan gft per jaar per persoon gebruikt 140 × 17.44 miljoen mensen = 2441600000kg")
+        let link = linkText.link("https://www.milieucentraal.nl/minder-afval/afval-scheiden/afval-scheiden-cijfers-en-kilo-s/")
+        explanation.innerHTML = ("Volgens " + link + " wordt er 140kg aan gft per jaar per persoon gebruikt 140 × 17.44 miljoen mensen = 2441600000kg. \n Kijk op de \" hoeveel verpillen we\" pagina voor meer informatie")
 
     }
 
