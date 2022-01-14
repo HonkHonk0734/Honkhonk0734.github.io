@@ -26,6 +26,12 @@ body {
     /* height: 100%; */
     background-repeat: 0;
     background-image: url("../images/food_waste_index.jpg");
+    background-size: cover;
     font-family: var(--Poppins);
+
 }
 
+.navbar {
+    background-color: transparent;
+    
+}
