@@ -10,7 +10,6 @@
 
 nav {
     height: 10vh;
-    background-color: #659DBD;
 }
 
 .nav-links {
@@ -56,6 +55,7 @@ nav {
     }
     nav {
         position: relative;
+        background-color: #659DBD;
     }
 
     .hamburger {
